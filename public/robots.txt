@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://techscript.ca/sitemap.xml
