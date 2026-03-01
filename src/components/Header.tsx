@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -28,6 +28,9 @@ export default function Header() {
               <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>
                 Contact
               </NavLink>
+            </li>
+            <li className="nav-cta">
+              <Link to="/#tools">Our Tools</Link>
             </li>
           </ul>
         </nav>
